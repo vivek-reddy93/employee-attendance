@@ -1,0 +1,70 @@
+/* Attendance Table Styles */
+.table-container {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.attendance-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.attendance-table thead {
+  background-color: #34495e;
+  color: white;
+}
+
+.attendance-table th {
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+  border-bottom: 2px solid #ddd;
+}
+
+.attendance-table td {
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.attendance-table tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.status-badge.present {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status-badge.absent {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.status-badge.late {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.no-data {
+  text-align: center;
+  color: #999;
+  padding: 2rem !important;
+}
+
+@media (max-width: 768px) {
+  .attendance-table th,
+  .attendance-table td {
+    padding: 0.75rem 0.5rem;
+    font-size: 0.875rem;
+  }
+}

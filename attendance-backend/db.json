@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Manager",
+      "email": "manager@company.com",
+      "password": "$2b$10$as1RXReK2yJYNzfAAE46je06xdGxII8fNMYP.9sNtFELWYq6PQjwy",
+      "role": "manager",
+      "employeeId": "MGR001",
+      "department": "IT"
+    },
+    {
+      "id": "2",
+      "name": "Alice Johnson",
+      "email": "employee1@company.com",
+      "password": "$2b$10$as1RXReK2yJYNzfAAE46jeEWFdsoD/ifHQrHODlcfERNwLnF6/2uG",
+      "role": "employee",
+      "employeeId": "EMP001",
+      "department": "IT"
+    },
+    {
+      "id": "3",
+      "name": "Bob Smith",
+      "email": "employee2@company.com",
+      "password": "$2b$10$as1RXReK2yJYNzfAAE46jeEWFdsoD/ifHQrHODlcfERNwLnF6/2uG",
+      "role": "employee",
+      "employeeId": "EMP002",
+      "department": "IT"
+    },
+    {
+      "id": "4",
+      "name": "Carol Williams",
+      "email": "employee3@company.com",
+      "password": "$2b$10$as1RXReK2yJYNzfAAE46jeEWFdsoD/ifHQrHODlcfERNwLnF6/2uG",
+      "role": "employee",
+      "employeeId": "EMP003",
+      "department": "HR"
+    }
+  ],
+  "attendance": []
+}

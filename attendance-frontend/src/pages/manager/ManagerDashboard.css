@@ -1,0 +1,21 @@
+/* Manager Dashboard Styles */
+.manager-dashboard {
+  padding: 2rem;
+}
+
+.manager-dashboard h1 {
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+}

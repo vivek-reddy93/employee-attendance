@@ -1,0 +1,108 @@
+.stats-card {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.stats-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.stats-card-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.stats-card-icon {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.stats-card-title {
+    font-size: 14px;
+    font-weight: 500;
+    color: #666;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.stats-card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.stats-card-value {
+    font-size: 32px;
+    font-weight: 700;
+    color: #333;
+    line-height: 1;
+}
+
+.stats-card-subtitle {
+    font-size: 13px;
+    color: #888;
+}
+
+.stats-card-trend {
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+/* Color themes */
+.stats-card-green .stats-card-icon {
+    background: #e8f5e9;
+    color: #4caf50;
+}
+
+.stats-card-green .stats-card-value {
+    color: #4caf50;
+}
+
+.stats-card-red .stats-card-icon {
+    background: #ffebee;
+    color: #f44336;
+}
+
+.stats-card-red .stats-card-value {
+    color: #f44336;
+}
+
+.stats-card-blue .stats-card-icon {
+    background: #e3f2fd;
+    color: #2196f3;
+}
+
+.stats-card-blue .stats-card-value {
+    color: #2196f3;
+}
+
+.stats-card-orange .stats-card-icon {
+    background: #fff3e0;
+    color: #ff9800;
+}
+
+.stats-card-orange .stats-card-value {
+    color: #ff9800;
+}
+
+.stats-card-purple .stats-card-icon {
+    background: #f3e5f5;
+    color: #9c27b0;
+}
+
+.stats-card-purple .stats-card-value {
+    color: #9c27b0;
+}

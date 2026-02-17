@@ -1,0 +1,9 @@
+/* Mark Attendance Page Styles */
+.mark-attendance {
+  padding: 2rem;
+}
+
+.mark-attendance h1 {
+  margin-bottom: 2rem;
+  color: #333;
+}
